@@ -13,13 +13,13 @@
 
 <script>
 export default {
-name: "NavBar",
-methods:{
-    scroll(refName){
-        const element = document.getElementById(refName);
-        element.scrollIntoView({behavior:"smooth"});
+    name: "NavBar",
+    methods:{
+        scroll(refName){
+            const element = document.getElementById(refName);
+            element.scrollIntoView({behavior:"smooth"});
+        }
     }
-}
 }
 </script>
 
